@@ -26,7 +26,7 @@ Next, to quickly see our results from training the neural ODE, run code sections
 - Run section 7.1.5: The results for comparing training with different training window sizes
 - Run section 7.1.6: The results for comparing training with different numbers of training windows per epoch
 
-Note: Inside 7.1.1., the strings within the variables ```train_names``` and ```test_name``` at the top of the code cell can be swapped around to produce the neural ODE results when trained on the trials specified in ```train_names``` and tested on ```test_name```. In addition, ```method_name```, specifying the numerical method used in the neural ODE, can be chosen from any one of "euler", "midpoint", "rk4", "dopri5", and "bosh3". The resulting graphs show two pairs of graphs, each comparing the neural ODE to one of the trials used in training and to the trial used in testing. No variables in sections 7.1.2 to 7.1.6 need to be changed to see all their respective results.
+Note: Inside 7.1.1., the strings within the variables ```train_names``` and ```test_name``` at the top of the code cell can be swapped around to produce the neural ODE results when trained on the trials specified in ```train_names``` and tested on ```test_name```.
 
 The following is not for TAs to do:
 To train the model, run code sections 1 to 6 inclusive, then either run section 7.1 to train the neural ODE with an individual numerical method, or run 7.2 to train the neural ODE on multiple (previously specified) numerical methods and compare their performances. In both code sections 7.1 and 7.2, the trials to test can train can be specified in the same way as in section 7.1.1 (at the top of the code cell), and in section 7.1, the numerical method can also be specified.
